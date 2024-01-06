@@ -748,6 +748,8 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+
+  margin-top: 10vh;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -788,31 +790,9 @@ section {
   top: 10px;
 }
 
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
 
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: -10vh;
   position: relative;
 }
 
